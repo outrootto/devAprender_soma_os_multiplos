@@ -1,0 +1,22 @@
+#button {
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(158, 150, 236);
+    color: rgb(21, 24, 16);
+    font-size: 14px;
+    transition-duration: 0.2s;
+    }
+
+#button:hover{
+    background-color: green;
+    color: white;
+}
+
+#somaDosMultiplos{
+    font-weight: bold;
+}
+
+
+
+  

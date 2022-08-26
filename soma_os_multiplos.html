@@ -1,0 +1,34 @@
+<!-- PROJETO 7 DO CURSO JS DO DEV APRENDER-->
+<!-- soma os múltiplos de 3 e de 5-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Soma os múltiplos de 3 e 5</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Soma múltiplos</h1>
+    </header>
+    <section>
+    <fieldset>
+        <form  target="_self">
+            <label>
+                <h2>Limite superior:</h2>
+            </label>
+            <input id="inputUser" name="inputUser" type="number" placeholder="Insira o limite superior" required="true">
+            <button id="button" type="button" onclick= "tudo()" value=Ok target="_self"> Ok </button>
+        </form>
+        <h3>Soma dos múltiplos de 3 e 5 existentes de 0 ao limite superior informado: </h3>
+        <span id='somaDosMultiplos'></span>
+    </fieldset>
+    </section>
+    <script src="./soma_os_multiplos.js"></script>
+</body>
+
+</html>
